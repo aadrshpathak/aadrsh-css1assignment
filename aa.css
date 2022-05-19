@@ -1,0 +1,50 @@
+.container td {
+    border: 3px solid black;
+    border-collapse: separate;
+    border-spacing: 20px;
+    padding: 10px;
+    
+}
+.container tbody tr:nth-child(odd){
+    background-color: blueviolet;
+}
+.container tbody tr:nth-child(even){
+    background-color: yellowgreen;
+}
+body{
+    background-color: red;}
+.container{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+thead{
+    background:url(./Screenshot\ \(137\).png)
+}
+caption{
+    padding: 2px;
+    color:aquamarine;
+    text-align:right;
+    font-size: 30px;
+    caption-side: bottom;
+}
+tbody td:hover{
+    background-color:green;
+    box-shadow: yellow -10px 3px, ;
+    transform: translate(10px,-10px,0);
+
+}
+.list {
+    text-align: right;
+    list-style:lower-roman;
+    color: green;
+    padding: 10px;
+    text-align:right;
+}
+.pera2{
+    text-align: center;
+}
+    

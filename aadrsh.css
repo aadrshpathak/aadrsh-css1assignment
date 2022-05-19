@@ -1,0 +1,81 @@
+*{
+    text-transform: capitalize;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    color: red;
+    background-color: yellowgreen;
+    width: 100%;
+    text-align: center;
+}
+main img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 42px;
+    border: 1px solid green;
+    background-color: green;
+    
+}
+button:hover{
+    transition: .3s;
+    color: red;
+    background-color: yellow;
+
+}
+
+.p1{
+background-color: green;
+color: red;
+padding: 10px;
+margin: 40px;
+border-radius: 10px;
+border-color: transparent;
+}
+.p1:hover{
+    background-color:yellow;
+    transition: .3s;
+}
+.p2{
+    background-color: blue;
+    padding: 10px 20px;
+    margin: 25px;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.p2:hover{
+    background-color:pink ;
+    transition: .3s;
+
+}
+
+
+footer{
+    padding: 20px 0px;
+    background-color: yellowgreen;
+
+}
+footer a{
+    color: red;
+
+    margin: 40px;
+    text-decoration: none;
+}
+footer a:hover{
+    border-bottom:1px solid red;
+ transition: .3s ease;
+}
+body{
+    background-color: aqua;
+}
+
